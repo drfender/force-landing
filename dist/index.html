@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68926949-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-68926949-3');
+	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>EmTracker</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/ico">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,800&amp;subset=cyrillic" rel="stylesheet"> -->
+	<!-- BOOTSTRAP CSS START-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<!-- BOOTSTRAP CSS END -->
+	<!-- input counrty -->
+	<link rel="stylesheet" href="css/intlTelInput.css">
+	<!-- input counrty -->
+	<link rel="stylesheet" href="css/min_style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="header_wrapper">
+						<img src="image/logo.png" alt="logo">
+						<div class="header_text">Программа корпоративного здоровья</div>
+					</div>
+					
+				</div>
+				<div class="col-md-4 offset-md-5 col-sm-6 offset-sm-3">
+					<ul class="contact_list">
+						<li>+380 99 731 96 73</li>
+						<li><img src="image/locate.png" alt="locate">г. Киев</li>
+					</ul>
+					<div class="try_demo">
+						<a href="#try_form">Попробовать демо</a>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="main">
+		<div class="main__bg_img">
+			<div class="container">
+				<div class="col-12">
+					<div class="main__first_text">Повысим эффективность сотрудников</div>
+					<div class="main__second_text">в 5 раз</div>
+					<div class="main__try_demo"><a href="#try_form">Попробовать демо</a></div>
+					<div class="main__third_text">Год подписки в <b>подарок</b></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="form_block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form_block_cell">
+						<p class="form_block__title-name">Панель управления</p>
+						<p class="form_block__title-desc">
+							Анализ результатов в реальном
+							<br>
+							времени
+						</p>
+					</div>
+					<div class="form_block_img">
+						<img src="image/form_block.png" alt="Mac,iPhone,Xiaomi">
+					</div>
+					<div class="form_block_cell">
+						<p class="form_block__title-name">Emotion</p>
+						<p class="form_block__title-desc">
+							Уменьшит стресс, повысит 
+							<br>
+							продуктивность
+						</p>
+					</div>
+					
+					<p class="right form_block__title-name">Фитнес-трекер</p>
+					<p class="right form_block__title-desc">
+							Mi Band Corporate Edition
+					</p>
+				</div>
+				<div class="col-md-6">
+					<div class="form_block__wrapper">
+						<p id='try_form' class='faq_title'>Закажите демо прямо сейчас</p>
+						<div class="form_block__desc">и получите первые 14 дней бесплатно!</div>
+						<form class="form_block__form" action="/mail.php" method="POST">
+							<label class='form_block__form-label' for="form_name">Как Вас зовут?</label>
+							<input  id='form_name' name="form_name" class='form_block__form-input' type="text" placeholder="Введите имя и фамилию">
+							<label class='form_block__form-label' for="form_email">Ваш e-mail</label>
+							<input  id='form_email' name="form_email" class='form_block__form-input' type="email" placeholder="Введите ваш e-mail">
+							<label class='form_block__form-label' for="form_phone">Ваш телефон</label>
+							<input  id='form_phone' name="form_phone" class='form_block__form-input' type="tel">
+							<input class='form_block__form-submit' type="submit" value="Заказать демо">				
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slogan">
+		<div class="slogan-ellipse">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<p class="slogan-text">“Уделяйте главное время не работе, а работнику”</p>
+						<span class="slogan-text_undertext">Японский лозунг</span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="slider_block">
+		<div class="slider_block__gray">
+			<div class="slider_block__grad">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5" >
+							<div class="slider_block__left-text">Что вы получите от внедрения программы?</div>
+						</div>
+						<div class="col-md-6 offset-md-1" style='z-index: 1;'>
+							<div class="slider_block__slider">
+								<div class="slider_block__slider-img">
+									<img class='active' data-index='0' src="image/care.png" alt="care">
+									<img style='filter: brightness(0) invert(1);' width="222px" data-index='1' src="image/icon_for_productivity.png" alt="businessman">
+									<img style='filter: brightness(0) invert(1);' height="100%" data-index='2' src="image/icon_for_health.png" alt="dance">
+									<img data-index='3' src="image/handshake.png" alt="handshake">
+								</div>
+								<div class="slider_block__slider-text">
+									<p class='active'>Меньше прогулов и больничных</p>
+									<p>Выше продуктивность персонала</p>
+									<p>Лучше здоровье, энергия и моральный дух сотрудников</p>
+									<p>Крепче корпоративная культура и ценности компании</p>
+								</div>
+								<div class="slider_block__slider-demo">
+									<a href="#try_form">Хочу демо!</a>
+								</div>
+								<div class="slider_block__slider-pages">
+									 <i id="left_arr" class="fa fa-angle-left" aria-hidden="true"></i>
+									 <span id='this_slide'>1 </span>
+									 <span class='line'>/</span>
+									 <span id='last_slide'> </span>
+									 <i id="right_arr" class="fa fa-angle-right" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="they_talk_about_us">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="they_talk_about_us__title">О нас говорят и пишут:</p>
+				</div>
+				<div class="col-md-8 offset-md-2 col-12">
+					<div class="they_talk_about_us_image_container">
+						<img src="image/forbes.png" alt="forbes">
+						<img src="image/Business.png" alt="Business">
+						<img src="image/fakti.png" alt="fakti">
+						<img src="image/uip.png" alt="uip">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="components">
+		<div class="components_ellipse">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						
+						<div class='components_text_box'>
+							<div class="components_text_box__big_number">3</div>
+							<div class='components_text_box__small_text'>компонента</div>
+						</div>
+						<div class='components_text_box'>
+							<div class='components_text_box__desc'>вашей программы корпоративного здоровья</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="table_info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 offset-md-5">
+					<div class="table_info_block">
+						<div class="table_info_block__info">
+							<div class="table_info_block__info-title">Emotion App</div>
+							<ul class="table_info_block__info-list">
+								<li>
+									<div class='img-wrapper'><img src="image/flash.png" alt="flash"></div>
+									<p>Контроль уровня <span>стресса</span></p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/happiness.png" alt="happiness"></div>
+									<p><span>Индивидуальный подход</span> к каждому пользователю</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/apple.png" alt="apple"></div>
+									<p>Внедрение новых полезных привычек</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/night.png" alt="night"></div>
+									<p><span>Персонализированные советы</span> для снижения стресса и улучшения качества сна</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/stats.png" alt="stats"></div>
+									<p>Отслеживание прогресса и личного роста</p>
+								</li>
+							</ul>
+						</div>
+						<div class="table_info_block__img">
+							<img src="image/table_bloke_phone.png" alt="iPhone">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="table_info_block second">
+						<div class="table_info_block__img second_block">
+								<img src="image/sh-02.png" alt="mi">
+							</div>
+						<div class="table_info_block__info second_block">
+							<div class="table_info_block__info-title second_block">Фитнес-браслеты<br> Mi Band Corporate Edition</div>
+							<ul class="table_info_block__info-list">
+								<li>
+									<div class='img-wrapper'><img src="image/foot.png" alt="foot"></div>
+									<p>Подсчет шагов</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/stairs.png" alt="stairs"></div>
+									<p>Количество этажей</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/heart.png" alt="heart"></div>
+									<p>Сердечная активность</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/night.png" alt="night"></div>
+									<p>Качество сна</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 offset-md-3">
+					<div class="table_info_block third_block">
+						<div class="table_info_block__info third_block">
+							<div class="table_info_block__info-title third_block">Панель управления</div>
+							<ul class="table_info_block__info-list">
+								<li>
+									<div class='img-wrapper'><img src="image/cloud-computing.png" alt="cloud-computing"></div>
+									<p>Доступ к обезличенным данным сотрудников</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/sharing-connections.png" alt="sharing-connections"></div>
+									<p>Анонимные инсайты от персонала</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/eye.png" alt="eye"></div>
+									<p>Измерения ретеншена</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/manager.png" alt="manager"></div>
+									<p>Предсказания выгорания работников</p>
+								</li>
+								<li>
+									<div class='img-wrapper'><img src="image/paper-plane.png" alt="paper-plane"></div>
+									<p>Замена 1:1 сессий с HR рассылкой вопросов в приложении</p>
+								</li>
+							</ul>
+						</div>
+						<div class="table_info_block__img third_block">
+							<img src="image/iMac.png" alt="iMac">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="info_wrapper">
+						<div class="info_wrapper__image">
+							<img src="image/donation.png" alt="donation">
+						</div>
+						<div class="info_wrapper__text">Окружайте своих<br> сторудников заботой и<br> любовью</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="info_wrapper">
+						<div class="info_wrapper__image">
+							<img src="image/responsive.png" alt="responsive">
+						</div>
+						<div class="info_wrapper__text">Быстрый и понятный<br> доступ к материалам<br> программы</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="info_wrapper">
+						<div class="info_wrapper__image">
+							<img src="image/team.png" alt="team">
+						</div>
+						<div class="info_wrapper__text">Помогите персоналу<br> следить за своим здоровьем<br> и меньше нервничать</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="slider_block__slider-demo">
+						<a href="#try_form">Хочу демо!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="workers">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="workers_first_block">
+						<div class="workers_first_block__title">Кто разработал эту программу для вас?</div>
+						<div class="workers_first_block__slider">
+							<div class="workers_first_block__slider-photos">
+								<img data-index='1' class='active' src="image/liza.jpg" alt="liza">
+								<img data-index='2' src="image/illya.jpg" alt="illya">
+								<img data-index='3' src="image/logo2.jpg" alt="logo">
+							</div>
+							<div id='1' data-index='1' class="workers_first_block__slider-text active">
+								<div class="workers_first_block__slider-text_left">
+									<div class="workers_first_block__slider-text_left__person">Лиза Воронкова</div>
+									<div class="workers_first_block__slider-text_left__desc">Исполнительный директор, основатель FORCE</div>
+								</div>
+								<div class="workers_first_block__slider-text_right">
+									<ul>
+										<li>Эксперт в биоинженерии и носимых устройствах</li>
+										<li>Научно-исследовательская деятельность в области неинвазивных измерений биосигналов</li>
+										<li>Выпускница магистратуры физтеха, КПИ</li>
+										<li>8 месяцев интенсивной стажировки в акселераторе Стенфорда</li>
+									</ul>
+								</div>
+							</div>
+							<div id='2' data-index='2' class="workers_first_block__slider-text">
+								<div class="workers_first_block__slider-text_left">
+									<div class="workers_first_block__slider-text_left__person">Илья Кухаренко</div>
+									<div class="workers_first_block__slider-text_left__desc">Технический дирекстор, сооснователь FORCE</div>
+								</div>
+								<div class="workers_first_block__slider-text_right">
+									<ul>
+										<li>Математик, инженер, аналитик</li>
+										<li>Лидер амбициозной команды разработчиков</li>
+										<li>Выступал в качестве спикера на ведущиз мировых конференциях в Китае, США, Европе</li>
+										<li>Создатель инновационных методов анализа биосигналов</li>
+									</ul>
+								</div>
+							</div>
+							<div id='3' data-index='3' class="workers_first_block__slider-text">
+								<div class="workers_first_block__slider-text_left">
+									<div class="workers_first_block__slider-text_left__person">Команда FORCE</div>
+									<div class="workers_first_block__slider-text_left__desc"></div>
+								</div>
+								<div class="workers_first_block__slider-text_right">
+									<ul>
+										<li>8 молодых инженеров и разработчиков</li>
+										<li>2 врача-терапевта</li>
+										<li>Единственный украинский проект-выпускник программы Alchemist (США, Калифорния)</li>
+										<li>5 лет опыта совместной работы</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="workers_second_block">
+						<p class="slogan-text">“Инвестиции в здоровье- как инвестиции в добычу нефти”</p>
+						<span class="slogan-text_undertext">И. Хакамада</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pay">
+		<div class="pay__background">
+			<div class="pay__mi">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="pay__title">Стоимость программы</div>
+							<div class="pay__underline"></div>
+							<div>
+								<div class="pay__cost">Для первых 100 компаний </div>
+								<div class="pay__cost-big_number">1199</div>
+								<div class="pay__cost-per_one"> грн за браслет</div>
+							</div>
+							<div class="pay__plus">+ 1 год подписки <span>в подарок!</span></div>
+							<div class="pay__company">
+								<img class="pay__company-image" src="image/dance.png" alt="dance">
+								<div class="pay__company-text"><span class="pay__company-text_big">8</span> компаний уже с нами</div>
+							</div>
+	
+						</div>
+						<div class="col-md-6">
+							<div class="pay__rigth_block">
+								<ul class="pay__list">
+									<li>Бесплатная замена трекера в течение 1 года</li>
+									<li>Персонализированная коммуникация и инфоповод</li>
+									<li>Корпоративные соревнования и челленджи</li>	
+								</ul>
+								<div class="pay__image_wrapper">
+									<img src="image/Corporate-Edition.png" alt="Corporate-Edition">
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="pay__desc">Если вы ждали подходящего момента для начала здорового образа в жизни для себя и своей компании - вот он!
+								<br>Не упустите свой шанс, ведь здоровье - это главный ресурс.</div>
+						</div>
+						<div class="col-12">
+							<div class="pay__button">
+								<a href="#try_form">Попробовать демо</a>					
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class='faq_title'>Часто задаваемые вопросы</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<div class="faq_list">
+						<div class="faq_list__element">
+							<div class="faq_list__element_close clearfix">
+								<div class="faq_list__element_close-text">Как пройдёт демо? Цена, условия?
+									</div>
+								<div class="faq_list__element_close-arrow">
+									<img src="image/arrow_d.png" alt="arrow">
+								</div>
+							</div>
+							<div class="faq_list__element__desc">
+									Демонстрационный период идёт две недели и рассчитан на 10 участников от компании. По окончании тестирования мы покажем сводный отчёт по группе сотрудников, которые принимали участие в тестировании. И - да, это совершенно бесплатно. Попробуйте, Вам понравится.
+								</div>
+						</div>
+						<div class="faq_list__element">
+							<div class="faq_list__element_close clearfix">
+								<div class="faq_list__element_close-text">А это не опасно? Что насчёт персональных данных сотрудников?</div>
+								<div class="faq_list__element_close-arrow">
+									<img src="image/arrow_d.png" alt="arrow">
+								</div>
+							</div>
+							<div class="faq_list__element__desc">
+									Личные данные доступны только человеку, который носит браслет. На их основе мы можем давать сотруднику персонализированные рекомендации по снижению стресса (в зависимости от его общей активности, образа жизни, привычек). Но в общем отчёте данные - ВАЖНО! - обезличенные. То есть вычислить того, кто “портит” статистику недосыпом или малой активностью, не получится.
+
+							</div>
+						</div>
+						<div class="faq_list__element">
+							<div class="faq_list__element_close clearfix">
+								<div class="faq_list__element_close-text">А я, как руководитель, могу следить за конкретным сотрудником?
+									</div>
+								<div class="faq_list__element_close-arrow">
+									<img src="image/arrow_d.png" alt="arrow">
+								</div>
+							</div>
+							<div class="faq_list__element__desc">
+									Нет. После громкого скандала с фейсбуком и утечкой информации мы перестроили алгоритм таким образом, что даже мы сами не можем получить доступ к личным данным. Да, даже за шоколадку не можем. Только обезличенные характеристики коллектива.
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">У меня что-то сердце колет, и голова болит, что со мной?
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Не знаю, сходите к врачу. Мы не можем поставить диагноз, если вы чувствуете себя неважно. Иногда вы сможете это заметить сами, следя за своими показателями в приложении. Но лучше сразу к врачу.
+									</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Зачем мне знать о выгорании сотрудников и их стрессе? Главное, чтобы работу делали вовремя.
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Если у ваших работников на протяжении долгого времени высокий уровень стресса, повышенная усталость и хронический недосып, очень вероятно, что они начнут задумываться об увольнении или как минимум потеряют эффективность. Мы поможем понять, какой процент сотрудников находится в “группе риска”, и даже сказать, почему - в приложении Emotion есть анонимные опросы, которые помогут лучше понять атмосферу в коллективе и качество условий труда.
+									</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Как какой-то фитнес-браслет предупредит выгорание?
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Браслет - это только одна из частей большой системы. Мы анализируем образцы движения, стиль жизни, привычки, уровень стресса - в целом, до 20 параметров на человека! Так мы можем давать наиболее индивидуальные советы по снятию стресса. Кому-то нужно просто выпить стакан воды медленными глотками, а кому-то для снятия стресса необходимо регулярно больше двигаться и заниматься медитациями. Это индивидуальные вещи, и мы можем их вычислить и предложить в качестве решения, что снизит стресс и уменьшит вероятность выгорания.
+
+										У нас и научные статьи на эту тему опубликованы - перезвоните по телефону на этом сайте, расскажем больше.
+											
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Как вы можете улучшить производительность?
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Правильное чередование физического и умственного труда, отдыха и нагрузок ведет к улучшенному настроению и психологическому состоянию, повышает моральное состояние, улучшает процесс мышления, концентрацию и принятия решений. Ежедневная физическая активность уменьшает количество дней, пропущенных по болезни.	
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Как измеряется производительность?
+
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Для каждого - индивидуально. Мы устанавливаем цели для демонстрационного проекта с каждым клиентом в зависимости от Ваших интересов. Кстати, демо - бесплатно.
+	
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Каким образом уменьшается текучка кадров?
+
+
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Программы корпоративного здоровья создают такой неуловимый, но вполне финансово осязаемый “корпоративный дух”. Вы получаете уникальный инструмент для глубокого понимания потребностей сотрудников, который позволит принять меры для предотвращения потери ценных кадров и проанализировать эффективность их внедрения.	
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Что такое активность сердца и как она измеряется?
+
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Устройство фиксирует изменения пульса пользователя для определения физической активности и качества сна. Для измерений используется фотоплетизмография и сложные алгоритмы фильтрации сигнала.
+
+	
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Браслеты водонепроницаемы?
+ 
+
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Да, но плавать не рекомендуется. А вот душ принимать можно.	
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Зачем мне это? 
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Большинство самых успешных мировых компаний уже длительное время пользуются программами корпоративного здоровья. Это очевидное преимущество над вашими конкурентами, которое повышает эффективность сотрудников и, как следствие, доход компании. Попробуйте демо, чтобы понять, нужна ли программа конкретно Вам - это бесплатно.	
+								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Как я могу оценить эффективность Вашей программы?
+
+
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Статистически, каждый доллар, вложенный в программу корпоративного здоровья, окупается трижды. Ещё раз: вложил $1, получил $3. А здоровье сотрудников, дополнительный пиар-повод и укреплённый соревнованиями коллективный дух - бесценно.								</div>
+						</div>
+						<div class="faq_list__element">
+								<div class="faq_list__element_close clearfix">
+									<div class="faq_list__element_close-text">Что такое корпоративное соревнование-челлендж?
+
+
+										</div>
+									<div class="faq_list__element_close-arrow">
+										<img src="image/arrow_d.png" alt="arrow">
+									</div>
+								</div>
+								<div class="faq_list__element__desc">
+										Практика показала: ваши сотрудники будут уделять больше внимания своему здоровью, если использовать механизмы геймификации и поощрений, которые могут более чем вдвое повысить активность ваших коллег с минимальными финансовыми вложениями. Мы предложим вам механизмы поощрения активных работников месяца, поможем выделить призы для тех у кого лучший в компании сон или самый низкий уровень стресса, или ввести соревнования по активности между отделами.
+		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-1">
+					<img src="image/logo.png" alt="logo">
+				</div>
+				<div class="col-md-4 offset-md-7">
+					<ul class="contact_list">
+						<li>+380 99 731 96 73</li>
+						<li><img src="image/locate.png" alt="locate">г. Киев</li>
+					</ul>
+					<div class="try_demo">
+						<a href="#try_form">Попробовать демо</a>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>				
+	<!-- BOOTSTRAP JS START -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<!-- BOOTSTRAP JS END -->
+	<!-- input counrty -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/intlTelInput.min.js"></script>
+	<!-- input counrty -->
+	<script src='js/minScripts.js'></script>
+</body>
+</html>
